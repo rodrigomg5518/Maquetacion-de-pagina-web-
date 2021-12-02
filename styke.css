@@ -1,0 +1,187 @@
+body {
+    margin: 0cm;
+}
+
+.cover {
+    height: 400px;
+    background-image: url(https://images.unsplash.com/photo-1447069387593-a5de0862481e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=joanna-kosinska-B6yDtYs2IgY-unsplash.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+
+.cover-small {
+    height: 200px;
+    background-blend-mode: normal;
+}
+
+.card {
+    border: 0 !important;
+    box-shadow: 0 4px 6px 1px rgba(0, 0, 0, 1), 0 2px 4px -1px rgb(0, 0, 0, 0.06);
+}
+
+.card-title {
+    min-height: 3rem
+}
+
+.car-text {
+    min-height: 10rem;
+}
+
+.product-stripe {
+    overflow-x: scroll;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.stripe-container {
+    display: flex;
+}
+
+.stripe-container .card {
+    width: 300px;
+    flex-shrink: 0;
+    margin-right: 1rem;
+}
+
+.responsive-iframe {
+    position: relative;
+    padding-top: 56.25%;
+}
+
+.responsive-iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Redes Sociales*/
+
+h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    color: #fff;
+    font-size: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+div.social-btn {
+    display: block;
+    width: 665px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div.social-btn a {
+    text-decoration: none;
+}
+
+div.social-btn div {
+    width: 130px;
+    display: inline-block;
+    height: 120px;
+    line-height: 120px;
+    color: #fff;
+    margin-right: 3px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-shadow: 0px 0px 5px #000;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    margin-bottom: 50px;
+}
+
+div.social-btn a:last-child div {
+    margin-right: 0;
+}
+
+div.social-btn div:hover,
+div.social-btn div:active {
+    height: 135px;
+    padding-top: 15px;
+}
+
+i {
+    -moz-transition: all 0.4s ease-out;
+    -webkit-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+
+div.face span,
+div.twi span,
+div.in span,
+div.pin span,
+div.git span {
+    position: absolute;
+    left: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    width: 100px;
+    padding: 0px 15px;
+    opacity: 0;
+    -moz-transition: all 0.6s ease-in;
+    -o-transition: all 0.6s ease-in;
+    -webkit-transition: all 0.6s ease-in;
+    transition: all 0.6s ease-in;
+    line-height: 110px;
+    font-size: 20px;
+}
+
+div.social-btn div:hover i {
+    opacity: 0;
+}
+
+div.social-btn div:hover span {
+    opacity: 1;
+}
+
+div.face {
+    background: #3A5795;
+    -moz-box-shadow: 0px 4px 0px #1e469d;
+    -webkit-box-shadow: 0px 4px 0px #1e469d;
+    box-shadow: 0px 4px 0px #3e6d8d;
+    position: relative;
+}
+
+div.twi {
+    background: #5EA9DD;
+    -moz-box-shadow: 0px 4px 0px #186ba4;
+    -webkit-box-shadow: 0px 4px 0px #186ba4;
+    box-shadow: 0px 4px 0px #2b95df;
+    position: relative;
+}
+
+div.in {
+    background: #d650b9;
+    -moz-box-shadow: 0px 4px 0px #035e8e;
+    -webkit-box-shadow: 0px 4px 0px #035e8e;
+    box-shadow: 0px 4px 0px #035e8e;
+    position: relative;
+}
+
+div.pin {
+    background: #D73532;
+    -webkit-box-shadow: 0px 4px 0px #b51c19;
+    -moz-box-shadow: 0px 4px 0px #b51c19;
+    box-shadow: 0px 4px 0px #b51c19;
+    position: relative;
+}
+
+.pie {
+    clear: both;
+    padding: 20px;
+    background-color: rgb(83, 73, 73);
+    color: white;
+}
